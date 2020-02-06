@@ -1,3 +1,7 @@
+.groupStart-23k01U {
+    position: relative;
+}
+
 .groupStart-23k01U::before {
     position: absolute;
     left: 1rem;
@@ -12,19 +16,19 @@
 }
 
 .group-spacing-4 .groupStart-23k01U::before {
-    top: calc(-.15625rem - 1px);
+    top: calc(-.15625rem - 1px); /*.3125*/
 }
 
 .group-spacing-8 .groupStart-23k01U::before {
-    top: calc(-.28125rem - 1px);
+    top: calc(-.28125rem - 1px); /*.5625*/
 }
 
 .group-spacing-16 .groupStart-23k01U::before {
-    top: calc(-.53125rem - 1px);
+    top: calc(-.53125rem - 1px); /*1.0625*/
 }
 
 .group-spacing-24 .groupStart-23k01U::before {
-    top: calc(-.78125rem - 1px);
+    top: calc(-.78125rem - 1px); /*1.5625*/
 }
 
 .hasMore-3e72_v + .groupStart-23k01U::before,
